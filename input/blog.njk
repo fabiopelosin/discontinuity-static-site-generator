@@ -1,0 +1,20 @@
+{% extends "templates/_layout.njk" %}
+
+{% block content %}
+<section class="blog">
+<h1>Blog</h1>
+<p>
+  The blog is populated with the articles found in the blog dir according to the order of the numbers.
+</p>
+
+<ul>
+  {% for ARTICLE in ARTICLES %}
+  <li>
+    <a href="./blog/{{ ARTICLE.PATH_NAME }}.html">
+      {{ ARTICLE.TITLE }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+</section>
+{% endblock %}

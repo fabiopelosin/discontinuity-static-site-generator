@@ -1,0 +1,14 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "semi": 1,
+    "no-unused-vars": 1,
+    "eol-last": 0,
+    "no-trailing-spaces": 0,
+    "strict": [2, "global"],
+    "quotes": 0
+  }
+}

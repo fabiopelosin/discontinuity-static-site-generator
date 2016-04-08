@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ HTML_TITLE }}</title>
+  <meta name="description" content="{{ META_DESCRITION }}">
+  <meta name="author" content="{{ META_AUTHOR }}">
+  <link href="{{ BASE_URL }}/favicon.png" rel="shortcut icon">
+  <link href="{{ BASE_URL }}/css/bundle.css" rel="stylesheet" type="text/css">
+  {% block head %} {% endblock %}
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="{{ BASE_URL }}/index.html">Home</a></li>
+        <li><a href="{{ BASE_URL }}/blog.html">Blog</a></li>
+        <li><a href="{{ BASE_URL }}/markdown-sample.html">Markdown Page</a></li>
+        <li><a href="{{ BASE_URL }}/error.html">Error Page</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main-content">
+    {% block content %} {% endblock %}
+  </div>
+
+  <footer>
+    Some copyright info
+  </footer>
+
+  <script src="{{ BASE_URL }}/js/main.js"></script>
+</body>
+</html>

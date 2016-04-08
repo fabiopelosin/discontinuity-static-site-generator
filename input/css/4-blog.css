@@ -1,0 +1,14 @@
+section.blog ul {
+    margin: 0;
+    padding: 0;
+}
+
+section.blog li {
+    padding: 1rem;
+
+    list-style: none;
+}
+
+section.blog li a {
+    text-transform: uppercase;
+}

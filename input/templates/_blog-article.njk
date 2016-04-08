@@ -1,0 +1,27 @@
+{% extends "templates/_layout.njk" %}
+{% block head %}
+<meta name="description" content="{{ TEASER }}" />
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{{ TWITTER_HANDLE }}">
+<meta name="twitter:title" content="{{ TITLE }}">
+<meta name="twitter:description" content="{{ TEASER }}">
+<meta name="twitter:image" content="{{ SITE_URL }}/blog/{{ PATH_NAME }}.jpg">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="{{ TITLE }}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ SITE_URL }}/blog/{{ PATH_NAME }}.html" />
+<meta property="og:image" content="{{ SITE_URL }}/blog/{{ PATH_NAME }}.jpg" />
+<meta property="og:description" content="{{ TEASER }}" />
+<meta property="og:site_name" content="{{ META_AUTHOR }}" />
+<meta property="fb:app_id" content="{{ FACEBOOK_APP_ID }}" />
+{% endblock %}
+
+{% block content %}
+<section>
+  <h1>{{ TITLE }}</h1>
+  {{ contents }}
+</section>
+{% endblock %}

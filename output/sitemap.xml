@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://example.com/blog.html</loc>
+        <lastmod>2016-04-08T14:19:43.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://example.com/error.html</loc>
+        <lastmod>2016-04-08T14:19:43.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://example.com/</loc>
+        <lastmod>2016-04-08T14:19:43.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://example.com/markdown-sample.html</loc>
+        <lastmod>2016-04-08T14:19:43.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://example.com/blog/article-one.html</loc>
+        <lastmod>2016-04-08T16:07:47.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://example.com/blog/article-three.html</loc>
+        <lastmod>2016-04-08T16:07:47.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://example.com/blog/article-two.html</loc>
+        <lastmod>2016-04-08T16:07:47.000Z</lastmod>
+    </url>
+</urlset>
